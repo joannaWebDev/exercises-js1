@@ -8,4 +8,4 @@ const roughPercMentors =Math.round(percentageMentors);
 
 console.log("The percentage of students is: " + roughPercStudents);
 console.log("The percentage of mentors is: " + roughPercMentors);
-//test
+//test2
