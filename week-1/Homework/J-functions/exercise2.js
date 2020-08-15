@@ -7,7 +7,6 @@
 var result = triple(12);
 
   function triple(number) {
-
     return number * 3;
   }
 

@@ -8,22 +8,21 @@
 6*/
 var result = halve(12);
 
-function halve(number) {
-  return number/2;
-}
+  function halve(number) {
+    return number/2;
+  }
 
 console.log(result);
 
 /* Try calling the function more than once with some different numbers*/
 
-var result = halve(12);
-function halve(number) {
-  
-  do {
-    result -=1
-    return number/2;
+  function halve(number) { 
+    do {
+      result--
+      return number/2;
+    }
+    while (result > 2 && result < 12);
+    
   }
-  while (result > 2 && result < 12);
-}
 
-console.log(result);
+  console.log(result);
