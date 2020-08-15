@@ -6,6 +6,7 @@
 Hello, my name is Daniel*/
 
 var greeting = createGreeting("Daniel");
+
     function createGreeting(greeting) {
         return `Hello, my name is  ${greeting}`;
     }

@@ -1,4 +1,4 @@
-/* Declare your function first
+/* Declare your function first         OK
 Call the function and assign to a variable `sum`
 
 * Write a function that adds two numbers together
@@ -9,10 +9,9 @@ Call the function and assign to a variable `sum`
 ```
 137*/
 
-var sum = (13, 124);
-
-function getSum(13,124) {
-    return  Math.sum(sum);
+function sum(numb1,numb2) { 
+    return numb1 + numb2;
   }
 
-console.log(sum);
+const theSum = sum (13, 124)
+console.log(theSum);

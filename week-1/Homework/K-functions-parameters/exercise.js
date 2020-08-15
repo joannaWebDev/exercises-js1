@@ -9,4 +9,5 @@
 function multiply(a, b) {
   console.log(a * b);
 }
-multiply(3, 4)
+
+multiply(3, 4);
