@@ -16,13 +16,5 @@ console.log(result);
 
 /* Try calling the function more than once with some different numbers*/
 
-  function halve(number) { 
-    do {
-      result--
-      return number/2;
-    }
-    while (result > 2 && result < 12);
-    
-  }
-
+  result ++;
   console.log(result);
