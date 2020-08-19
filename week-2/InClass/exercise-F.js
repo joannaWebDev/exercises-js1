@@ -5,11 +5,11 @@ if the username starts with a capital letter and has length between 5 and 10 cha
 if the user type is an admin or a manager, all usernames must return "Username valid"*/
 
 const nombre = function (userName, userType) {
-    if (userName == userName.toUpperCase() && userName.length >=5 && userName.length <=10 || userType == 'admin' || userType == 'manager') {
+    if (userName[0] == userName[0].toUpperCase() && userName.length >=5 && userName.length <=10 || userType == 'admin' || userType == 'manager') {
         return 'Username valid';
     } else {
         return 'Username invalid';
     }
 }
 
-console.log(nombre('john','admin'));
+console.log(nombre('James','user'));

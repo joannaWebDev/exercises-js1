@@ -11,4 +11,4 @@ My name is Daniel and my name is 6 characters long
 */
 let name = "       Joanna    ";
 
-console.log(name.trim())
+console.log(name.trim());

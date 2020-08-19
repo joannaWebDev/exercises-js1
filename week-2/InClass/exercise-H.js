@@ -1,12 +1,5 @@
 /*Calculate the exponential of the even numbers from 5 to 20 Using a for loop and the helper functions provided.
 
-function exponential(number) {
-  return number * number;
-}
-
-function isEven(number) {
-  return number % 2 === 0;
-}
 Expected output
 
 The exponential of 6 is 36
@@ -17,10 +10,23 @@ The exponential of 14 is 196
 The exponential of 16 is 256
 The exponential of 18 is 324*/
 
+
 function exponential(number) {
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
   return number * number;
 }
 
 function isEven(number) {
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
   return number % 2 === 0;
 }
+
+
+
+console.log(`The exponential of ${exponential(6)} is ${isEven()}`);

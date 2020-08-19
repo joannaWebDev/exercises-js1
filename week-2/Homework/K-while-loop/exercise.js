@@ -9,7 +9,10 @@
 let n = 10;
 
 function sumTillNum(num){
-	//your code here
+	while (condition) {
+		
+		n++;
+	}
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

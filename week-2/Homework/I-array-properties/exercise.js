@@ -6,7 +6,9 @@
 */
 
 function isEmpty(arr) {
-  return; // complete this statement
+  if(arr.length < 1 || arr == undefined){
+   return true;
+}  return false;
 }
 
 /* 

@@ -13,3 +13,12 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+function daysToString() {
+  const d = new Date(dateString);
+  const dayName = daysOfWeek[d.getDay()];
+  return dayName;
+
+}
+
+console.log(daysOfWeek[new Date().getDay()].startsWith(`T`));

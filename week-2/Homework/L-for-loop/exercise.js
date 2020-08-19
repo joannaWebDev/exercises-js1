@@ -9,7 +9,10 @@
 let n = 10;
 
 function sumTillNum(num){
-	//your code here
+	for (let index = 0; index < array.length; index++) {
+		const element = array[index];
+		
+	}
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

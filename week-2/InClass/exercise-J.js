@@ -8,8 +8,9 @@ function secondMatchesAmy(array) {
 }*/
 
 function secondMatchesAmy(array) {
-  if ( ) {
+  if (array === "Amy" ) {
     return "Second index matched!";
   }
   return "Second index not matched";
 }
+console.log(secondMatchesAmy("Amy"));
