@@ -5,14 +5,13 @@
 - You should use a while loop
 
 */
-
 let n = 10;
 
 function sumTillNum(num){
-	while (condition) {
-		
+	while (num >= 0) {
+		return num + n;
 		n++;
 	}
 }
 
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+console.log("Sum from 0 and " + n + " is: " + sumTillNum(3));

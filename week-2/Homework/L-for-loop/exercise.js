@@ -7,12 +7,20 @@
 */
 
 let n = 10;
-
+/*
 function sumTillNum(num){
-	for (let index = 0; index < array.length; index++) {
-		const element = array[index];
+	for (let n = 0; n < n.length; n++) {
+		return sumTillNum + n;
 		
 	}
 }
+*/
+function sumTillNum(N) {
+	let total = 0;
+	  for(var i = 1; i <= N; i++){
+		total += i;
+	  }
+	  return total;
+  }
 
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+console.log("Sum from 0 and " + n + " is: " + sumTillNum(5));

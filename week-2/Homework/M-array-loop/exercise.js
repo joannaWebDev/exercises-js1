@@ -11,14 +11,16 @@ const daysOfWeek = [
   "Thursday",
   "Friday",
   "Saturday",
-  "Sunday",
+  "Sunday"
 ];
 
-function daysToString() {
-  const d = new Date(dateString);
-  const dayName = daysOfWeek[d.getDay()];
-  return dayName;
-
+function daysToString(arr) {
+  let dayLetter = '';
+  for (let i = 0; i <= arr.length; i++) {
+    dayLetter = arr[i];
+    return dayLetter;
+  }
+  
 }
 
-console.log(daysOfWeek[new Date().getDay()].startsWith(`T`));
+console.log(daysToString(daysOfWeek));

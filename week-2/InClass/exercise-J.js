@@ -13,4 +13,4 @@ function secondMatchesAmy(array) {
   }
   return "Second index not matched";
 }
-console.log(secondMatchesAmy("Amy"));
+console.log(secondMatchesAmy("james"));
