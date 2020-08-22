@@ -23,4 +23,4 @@ function daysToString(arr) {
   
 }
 
-console.log(daysToString(daysOfWeek));
+console.log(daysToString(daysOfWeek))
