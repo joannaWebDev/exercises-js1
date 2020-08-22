@@ -18,4 +18,4 @@ function exponential(number) {
     }
   }
 }
-exponential(6)
+exponential(6);
