@@ -14,7 +14,7 @@ function exponential(number) {
   for (let i = 5; i < 20; i++) {
     if (number % 2 === 0 && number < 20) {
       console.log("The exponential of " + number + " is " + number * number);
-      number += 2
+      number += 2;
     }
   }
 }

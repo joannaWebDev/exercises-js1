@@ -6,11 +6,13 @@ function secondMatchesAmy(array) {
   }
   return "Second index not matched";
 }*/
+const miArray = ['Clara', 'Neo', 'Amy'];
 
-function secondMatchesAmy(array) {
-  if (array === "Amy" ) {
+function secondMatchesAmy(miArray) {
+  if (miArray[2] === "Amy" ) {
     return "Second index matched!";
   }
   return "Second index not matched";
 }
-console.log(secondMatchesAmy("james"));
+
+console.log(secondMatchesAmy(miArray));
