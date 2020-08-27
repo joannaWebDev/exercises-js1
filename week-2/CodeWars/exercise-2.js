@@ -7,6 +7,9 @@ function removeChar(str) {
     
 console.log(removeChar(`eloquent`));   
 
+
+//The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included)
+
 // Test.assertEquals(removeChar('eloquent'), 'loquen');
 // Test.assertEquals(removeChar('country'), 'ountr');
 // Test.assertEquals(removeChar('person'), 'erso');

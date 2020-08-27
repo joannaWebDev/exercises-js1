@@ -1,6 +1,9 @@
 /*Create a function which accepts an array of "messy" strings. Example:
-
-[
+This function should:
+Remove all non-string entries
+Change the strings to upper case, and add an exclamation mark to the end
+If you're using the above example, you should expect to return an array with 2x ELAMIN!, 1x SANYIA!, 2x ISMAEL! and 1x JAMES!.*/
+let messyArray = [
   100,
   "iSMael",
   55,
@@ -15,8 +18,20 @@
   19,
   "ElaMIN",
 ];
-This function should:
 
-Remove all non-string entries
-Change the strings to upper case, and add an exclamation mark to the end
-If you're using the above example, you should expect to return an array with 2x ELAMIN!, 1x SANYIA!, 2x ISMAEL! and 1x JAMES!.*/
+let filteredArray = messyArray.filter(x => typeof x === "string");
+console.log(filteredArray);
+
+// Old ways
+//for (let i = 0; i < filteredArray.length; i++) {
+//   let oneObject = filteredArray[i]; 
+//   oneObject = oneObject.toUpperCase() + `!`;
+//   console.log(oneObject);
+// } 
+
+
+//New Ways
+filteredArray.map(oneObject => {
+  oneObject = oneObject.toUpperCase() + `!`;
+  console.log(oneObject);
+})
