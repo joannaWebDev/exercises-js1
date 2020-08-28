@@ -6,8 +6,13 @@
 //ECMA6
 let names = [`Mary`, `James`, `Porky`, `Irina`];
 
+function isTheName(name) {
+    return names.includes(name)
+}
 
 
+
+console.log(isTheName(`Mary`))
 
 //OLD WAYS
 // function checkIfNameExists(arr, val) {   
