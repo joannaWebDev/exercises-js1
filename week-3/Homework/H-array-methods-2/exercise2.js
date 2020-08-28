@@ -3,16 +3,18 @@
   -------------------------
   Complete the capitalise function 
   It should return a string with the first letter in uppercase
-  For example, capitailise("hello") should return "Hello"
+  For example, capitalise("hello") should return "Hello"
   Tip: use the string method .split() and the array method .join()
 */
 
-function capitalise(str) {}
+function capitalise(str) {
+  return name.split().concat((str).join(`:`))
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-var name = "daniel";
+let name = "daniel";
 
 console.log(capitalise(name));
 console.log(capitalise("hello"));
