@@ -22,16 +22,16 @@ let messyArray = [
 let filteredArray = messyArray.filter(x => typeof x === "string");
 console.log(filteredArray);
 
+//New Ways
+filteredArray.map(oneObject => {
+  oneObject = oneObject.toUpperCase() + `!`;
+  console.log(oneObject);
+})
+
+
 // Old ways
 //for (let i = 0; i < filteredArray.length; i++) {
 //   let oneObject = filteredArray[i]; 
 //   oneObject = oneObject.toUpperCase() + `!`;
 //   console.log(oneObject);
 // } 
-
-
-//New Ways
-filteredArray.map(oneObject => {
-  oneObject = oneObject.toUpperCase() + `!`;
-  console.log(oneObject);
-})
